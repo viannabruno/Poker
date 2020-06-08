@@ -8,7 +8,7 @@
       var encontrar =false;
       while (!encontrar) {
         var numCarta = Math.floor(Math.random() * 13+1);
-        var nipeCarta = nipes[Math.floor(Math.random() * 3)];
+        var nipeCarta = nipes[Math.floor(Math.random() * 4)];
         var carta = 'images/'+ numCarta + nipeCarta + '.png';
         if(listaCartas.indexOf(carta)==-1){
           encontrar=true;
